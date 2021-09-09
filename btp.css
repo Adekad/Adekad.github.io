@@ -1,0 +1,20 @@
+.qsd{
+    border-radius: 25px 25px 25px 25px;
+}
+.txt{
+    text-align: justify;
+    padding-top: 3pc;
+    
+}
+.txt1{
+   
+}
+.pti{
+    font-size: x-small;
+}
+#shadowbox{
+    box-shadow:rgba(0, 0, 0, 0.726) 5px 5px 10px  ;
+}
+.lign{
+    height: 10pc;
+}
