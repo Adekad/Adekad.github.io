@@ -10,18 +10,24 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="navbar" class="fixed-top">
+    <div id="navbar" class="container-fluid fixed-top">
         <nav class="navbar navbar-expand-lg navbar-light">
             <a class="navbar-brand"> Oriente-toi <img src="" alt=""></a>
-            <button class="navbar-toggler" type="button"data-toggle="collapse" data-ride="#NavReduit"> 
+            <!--<button class="navbar-toggler" type="button"data-toggle="collapse" data-ride="#NavReduit"> 
          <span class="navbar-toggler-icon" style="background-color: white;"></span> 
-         </button>
-         <div class="collapse navbar-collapse essai" id="NavReduit">
-         <ul class="nav">
+         </button>-->
+
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="background-color: white;"></span>
+        </button>
+
+         <div class="collapse navbar-collapse essai" id="navbarSupportedContent">
+         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             
-             <li class="list"><a href="index.html" class="button1 button-1"> Acceuil</a></li>
-         <li class="list" >  <a href="#offres" class="button1 button-1"> Nos Offres</a></li> 
-         <li class="list">  <a href="#footer" class="button1 button-1">  Contacts</a></li> 
+             <li class="nav-item list"><a href="index.html" class="button1 button-1"> Acceuil</a></li>
+         <li class="nav-item list" >  <a href="#offres" class="button1 button-1"> Nos Offres</a></li> 
+         <li class="nav-item list">  <a href="#footer" class="button1 button-1">  Contacts</a></li> 
          
              <!--<li><label for="site-search"></label>
             <form action="detail.php" method="POST">
@@ -34,11 +40,12 @@
              </div>
              </nav>
     </div>
+    <div class="container-fluid">
     <div id="hero">
         <div class="row">
             
-            <div class="container-fluid">
-                 <div class="col-12 debut"></div>
+            
+                 <div class="col-12 debut">
                     <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
                       <!--Indicateurs-->
                      
@@ -60,7 +67,7 @@
                                      </div>
                                      
                                         <div class="carousel-item">
-                                           <img src="im4.jpg" alt="carousel slide 2" class="d-block w-100 img" style="height: 500px;">
+                                           <img src="im2.jpg" alt="carousel slide 2" class="d-block w-100 img" style="height: 500px;">
                                            <div class="carousel-caption d-none d-md-block top1">
                                             <p> Nous avons développé une solution ludique qui permettra à chacun de construire son projet d’orientation de manière ludique, positive et amusante.</p>
                                             
@@ -91,14 +98,15 @@
                        </a>
                     </div>
                  </div>
+                 
              </div>
         </div>
-    </div>
-   
+    
  
     <div id="offres">
         <div class="row néo">
-            <div class="col-lg-6 col-sm-12 he">
+            
+            <div class="col-lg-4 col-sm-12 he">
                 <p class="une">Filières</p>
                 <p class="deux">Chaque année un peu plus de 40 000 élèves et lycéens s’inscrivent dans les écoles universitaires Béninoise juste
                      après l’obtention de leur baccalauréat. Malheureusement, seulement la moitié environ de ces...
@@ -113,17 +121,20 @@
                 </p>
                 <a href="filière.html" class="button instagram"><span class="gradient"></span> Découvrir des Filières</a>
             </div>
-            <div class="col-lg-5 col-sm-12 mie">
+            <div class="col-lg-4 col-sm-12 he">
                 <p class="nel">Etablissements</p>
-                <p class="nhd"> Ressources pédagogiques, réseau professionnel, corps enseignant de haut niveau, infrastructures, vie associative, environnement… Autant de critères qui peuvent orienter  votre choix d’une école et qui ne se résument pas à la simple réputation ! 
+                <p class="nhd"> Ressources pédagogiques, réseau professionnel, corps enseignant de haut niveau, infrastructures, vie associative, 
+                    environnement… Autant de critères qui peuvent orienter  votre choix d’une école et qui ne se résument pas à la simple réputation ! 
                 </p>
                 <p class="bg"><a href="etablissement.html" class="button instagram"><span class="gradient"></span> Découvrir des Etablissements </a></p>
                 
             </div>
+        
         </div>
 
 
     </div>
+
     <!--<div id="actualités">
         <div class="container-fluid conteneur">
             <div class="row">
@@ -220,7 +231,7 @@
               </div>
               
 
-              <div class="col-lg-2 col-md-4  d-none d-md-block sa">
+              <div class="col-lg-2 col-md-4 d-none d-md-block sa">
                 <div class="row">
                     
                     <img src="kaka.jpeg" alt="" class="dodo">
@@ -268,7 +279,7 @@
           </div>
         </div>   
     </div>
-    
+</div>
     <div id="overlay" class="overlay">
 
         <div class="modal " >
@@ -309,42 +320,27 @@
         <footer>
             <div class="row">
 
-                <div class=" col-4 mes">
-                    <div class="row">
-                        <div class="col-12">
+                <div class="col-lg-4 col-md-12 mes">
                             &nbsp;&nbsp; <br>
                             <h2 class="orien">Oriente-toi</h2>
                                 <p class="d-none d-md-block pied1">Oriente-toi est un jeune projet né à la <br> suite d'une formation en informatique au Bénin
                                 <br> les realisateurs du projet developpent des solutions <br> pour permettre aux nouveaux bachéliers <br> et aux parents 
                                 d'élèves de trouver les  meilleurs <br> universites qui repondent a leur attentes.
                             </p> 
-                            </div>
-                    </div>  
                 </div>
-                <div class="col-1 ac">
+                <div class="col-lg-4 col-md-5 ac">
                         <div class="row"> 
                            <div class="col-6 "><a href="index.html"><u> Accueil</u> </a></div>
                         </div>
                         <div class="row">
                             <div class="col-6"><a href="#offres"> <u>offres</u>  </a><br><a href=""><u>Newsletter</u> </a> <br> <a href=""><u>Actualités</u></a> </div>
+                            <div class="col-5 cnt">Contacts 
+                                <br> +229<em> 00.00.00.00</em></div>
                         </div>
-                </div>
-                
-
-
-
-                <div class="col-1 ac1">
-                   
-                </div>
-               
-                <div class="col-2 ac3">
-                    <div class="row ">
-                        <div class="col-7 cnt">Contacts 
-                            <br> +229<em> 00.00.00.00</em></div>
-                    </div>
+                        
                 </div>
                 <div class="col-3 mes1">
-                    <div class="row">
+                    <div class="row d-none d-md-block">
                         <div class="col-lg-12 siz">
                             Envoyer-nous un message si vous avez un question en tête ou 
                             un pétit message simpa à nous transmettre
@@ -359,10 +355,8 @@
                 </div>
             </div>
             <div class="row mes2">
-                
-                    <div class="col-3 mes3">Bénin (français)</div>
-                    <div class="col-2 un"> &nbsp;<img src="tp2.png" alt="" height="24" width="34"> :
-                        <h3 class="calavi"> <em>calavi</em></h3></div>
+                    <!--<div class="col-2 un"> &nbsp;<img src="tp2.png" alt="" height="24" width="34"> :
+                        <h3 class="calavi"> <em>calavi</em></h3></div>-->
                     &nbsp;&nbsp;<div class="col-0.8 un"><img src="facebookb.png" alt="" height="24" width="34"></div>
                     &nbsp;&nbsp;<div class="col-0.8 un"><img src="whatb.png" alt="" height="24" width="34"></div>
                     &nbsp;&nbsp; <div class="col-0.8 un"><img src="messenb.png" alt="" height="24" width="34"></div>
@@ -380,7 +374,8 @@
        
     
     <script src="bootstrap-4.3.1-dist/js/jquery-3.6.0.js"></script>
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

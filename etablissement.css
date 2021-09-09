@@ -1,9 +1,16 @@
 
 .cloi{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     text-align: justify;
 }
+
+.yoyo{
+    background-color: rgba(247, 247, 252, 0.308);
+    padding: 40px;
+    margin-top: 50px;
+}
+
 .uio{
     text-align: justify;
     color: black;
@@ -27,7 +34,7 @@ left: 50px;
     
 }
 .oiu{
-    margin: 30px;
+    /*margin: 30px;*/
     border-radius: 10px;
 }
 
@@ -65,10 +72,10 @@ left: 50px;
     margin-left: 50px;
 }
 .olut{
-    margin-top: 100px;
+    margin-top: 60px;
 }
 .hjkx{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 .directionet{

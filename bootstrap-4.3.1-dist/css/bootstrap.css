@@ -10050,8 +10050,8 @@ a.text-dark:hover, a.text-dark:focus {
 .si{
   background-color: rgb(240, 235, 235);
   height: 280px;
-  margin-right: 50px;
-  margin-left: 100px;
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 20px;
   box-shadow:rgba(180, 176, 176, 0.726) 5px 5px 50px  ;
 
@@ -10116,7 +10116,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: bold;
 }
 .dodo{
-  width: 225px;
+  width: 100%;
   margin-top: 1px;
   
   border-radius: 20px 20px 0px 0px;

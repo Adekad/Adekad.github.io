@@ -1,10 +1,15 @@
+
+#hero{
+    width: 100%;
+}
+
 .néo{
     background-color:  rgb(240, 236, 223 );
 }
 .he{
     box-shadow:rgba(180, 176, 176, 0.726) 5px 5px 50px  ;
-    padding: 30px;
-    margin-left: 2pc;
+    padding: 10px;
+    margin: auto;
     font-weight: bold;
     font-size: 30px;  
 
@@ -31,10 +36,10 @@
 }
 
 .mie{
-    margin-left: 20px;
+    margin: auto;
     box-shadow:rgba(180, 176, 176, 0.726) 5px 5px 50px  ;
     background-color: rgb(240, 236, 223);
-    padding: 30px;
+    padding: 10px;
     color: rgb(2, 2, 2);
     font-weight: bold;
     font-size: 30px;  
@@ -152,16 +157,14 @@ padding: 1px;
  
 #navbar{
 
-    background-color:rgb(0, 0, 0);
+    background-color:rgba(0, 0, 0, 0.7);
     color: white;
     list-style-type: none;
    
    
 }
 
-.nav{
-    padding-top: 20px;
-    
+.nav{    
    float: right;
 }
 
@@ -246,7 +249,7 @@ padding: 1px;
 
 .button {
 	display: block;
-  width: 400px;
+  width: 200px;
   max-width: 100%;
   margin: 0 auto;
   margin-bottom: 0;
