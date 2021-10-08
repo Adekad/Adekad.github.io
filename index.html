@@ -4,378 +4,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="popup.css">
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
 </head>
 <body>
-    <div id="navbar" class="container-fluid fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand"> Oriente-toi <img src="" alt=""></a>
-            <!--<button class="navbar-toggler" type="button"data-toggle="collapse" data-ride="#NavReduit"> 
-         <span class="navbar-toggler-icon" style="background-color: white;"></span> 
-         </button>-->
-
-         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" style="background-color: white;"></span>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top menu">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport">
+            <span class="navbar-toggler-icon"></span>
         </button>
-
-         <div class="collapse navbar-collapse essai" id="navbarSupportedContent">
-         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            
-             <li class="nav-item list"><a href="index.html" class="button1 button-1"> Acceuil</a></li>
-         <li class="nav-item list" >  <a href="#offres" class="button1 button-1"> Nos Offres</a></li> 
-         <li class="nav-item list">  <a href="#footer" class="button1 button-1">  Contacts</a></li> 
-         
-             <!--<li><label for="site-search"></label>
-            <form action="detail.php" method="POST">
-                <input type="search" id="site-search" name="search"placeholder="Rechercher...">
-                <button class="Search"><input type="submit" value="Search"></button>
-            </form>            
-                
-             </li>-->
-         </ul>
-             </div>
-             </nav>
-    </div>
+        <div class="collapse navbar-collapse" id="navbarSupport">
+            <ul class="navbar-nav mr-auto mb-2 mb-lg">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Description">Description</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Passion">Passion</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Maison">Maison</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Ecole">Ecole</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#Religion">Religion</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="container-fluid">
-    <div id="hero">
-        <div class="row">
-            
-            
-                 <div class="col-12 debut">
-                    <div id="demo" class="carousel slide" data-ride="carousel" data-interval="2000">
-                      <!--Indicateurs-->
-                     
-                       <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="1" class="active"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
-                        <li data-target="#demo" data-slide-to="3"></li>
-                        <li data-target="#demo" data-slide-to="4"></li>
-                       
-                       </ul>
+        <div id="hero">
+            <div class="row" data-aos="fade-up">              
                 
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="educ1.jpg" alt="carousel slide 1" class="d-block w-100 img" style="height: 500px;">
-                                    <div class="carousel-caption d-none d-md-block top1">
-                                       <h4>Bienvenue à vous sur ce site!!</h4>
-                                      
-                                    </div>
-                                     </div>
-                                     
-                                        <div class="carousel-item">
-                                           <img src="im2.jpg" alt="carousel slide 2" class="d-block w-100 img" style="height: 500px;">
-                                           <div class="carousel-caption d-none d-md-block top1">
-                                            <p> Nous avons développé une solution ludique qui permettra à chacun de construire son projet d’orientation de manière ludique, positive et amusante.</p>
-                                            
-                                         </div>
-                                        </div>
-                                 <div class="carousel-item">
-                                 <img src="educ3.jpg" alt="carousel slide 3" class="d-block w-100 img" style="height: 500px;">
-                                 <div class="carousel-caption d-none d-md-block top1">
-                                    <p>Nous esperons pouvoir satisfaire vos attentes...</p>
-                                   
-                                 </div>
-                            </div>
-                               <div class="carousel-item">
-                                <img src="im3.jpg" alt="carousel slide 5" class="d-block w-100 img" style="height: 500px;">
-                                <div class="carousel-caption d-none d-md-block top1">
-                                    
-                                    <p>...</p>
-                                 </div>
-                               </div>
-                       </div>
-                       <a class="carousel-control-prev" href="#demo" role="button" data-slide="prev">
-                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                           <span class="sr-only">Précédent</span>
-                       </a>
-                       <a class="carousel-control-next"href="#demo" role="button" data-slide="next">
-                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                           <span class="sr-only">Suivant</span>
-                       </a>
-                    </div>
-                 </div>
-                 
-             </div>
-        </div>
-    
- 
-    <div id="offres">
-        <div class="row néo">
-            
-            <div class="col-lg-4 col-sm-12 he">
-                <p class="une">Filières</p>
-                <p class="deux">Chaque année un peu plus de 40 000 élèves et lycéens s’inscrivent dans les écoles universitaires Béninoise juste
-                     après l’obtention de leur baccalauréat. Malheureusement, seulement la moitié environ de ces...
-                     <a class="te" href="#nogo" onclick="document.getElementById('lirelasuite').style.display = 'block'; this.style.display = 'none';">
-                        Lire la suite...</a>
-                        <p id="lirelasuite"> nouveaux entrants dans 
-                        l’enseignement supérieur valide leur première année. L’importance de l’échec 
-                        en première année d’études supérieures, est souvent due à une mauvaise orientation
-                         ou aux choix de filière
-                         d’inscription peu adaptés au profil de l’étudiant.</p>
-                         
-                </p>
-                <a href="filière.html" class="button instagram"><span class="gradient"></span> Découvrir des Filières</a>
-            </div>
-            <div class="col-lg-4 col-sm-12 he">
-                <p class="nel">Etablissements</p>
-                <p class="nhd"> Ressources pédagogiques, réseau professionnel, corps enseignant de haut niveau, infrastructures, vie associative, 
-                    environnement… Autant de critères qui peuvent orienter  votre choix d’une école et qui ne se résument pas à la simple réputation ! 
-                </p>
-                <p class="bg"><a href="etablissement.html" class="button instagram"><span class="gradient"></span> Découvrir des Etablissements </a></p>
-                
-            </div>
-        
-        </div>
-
-
-    </div>
-
-    <!--<div id="actualités">
-        <div class="container-fluid conteneur">
-            <div class="row">
-
-                <div class="col-12"><h2 class="no1">Nos actualites</h2>
-                    <p class="l">voulez-vous faire un tour ?<br> ca y est !!</p>
-                </div>
-          </div>
-          <div class="row">
-              <div class="col-2 si">
-                  <div class="row">
-                    
-                      <img src="docteur.jpeg" alt="" class="dodo">
-
-                  </div>
-                  <div class="row">
-                    <div class="col-10"><br>
-                        <u><h5 class="no2">La sante</h5>
-                        <p class="l">Notre domaine vital</p></u>
-                    </div>
-                </div>
-              </div>
-              
-
-              <div class="col-2  sa">
-                <div class="row">
-                    
-                    <img src="kaka.jpeg" alt="" class="dodo">
-
-                </div>
-                <div class="row">
-                  <div class="col-10"><br>
-                     <u> <h5  class="no2">L'informatique</h5>
-                      <p class="l">Notre domaine vital</p></u>
-                  </div>
-              </div>
-              </div>
-              <div class="col-2 se">
-                <div class="row">
-                    
-                    <img src="tota.jpeg" alt="" class="dodo">
-
-                </div>
-                <div class="row">
-                  <div class="col-10 "><br>
-                      <u><h5  class="no2">L'agriculture</h5>
-                      <p class="l">Notre domaine vital</p></u>
-                  </div>
-              </div>
-              </div>
-              <div class="col-2 su">
-                <div class="row">
-                    
-                   <img src="popo.jpeg" alt="" class="dodo">
-
-                </div>
-                <div class="row">
-                  <div class="col-10 messi"><br>
-                     <u> <h5  class="no2">L'energie</h5>
-                      <p class="l">Notre domaine vital</p></u>
-                  </div>
-              </div>
-              </div>
-
-
-
-
-
-
-          </div>
-        </div>   
-    </div> -->
-    <div id="actualités">
-        <div class="container-fluid conteneur">
-            <div class="row">
-
-                <div class="col-12"><h2 class="no1">Nos actualites</h2>
-                    <p class="l">voulez-vous faire un tour ?<br> ca y est !!</p>
-                </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-2 col-md-4 si">
-                  <div class="row">
-                    
-                     <img src="docteur.jpeg" alt="" class="dodo">
-
-                  </div>
-                  <div class="row">
-                    <div class="col-10"><br>
-                        <u><h5 class="no2">La sante</h5>
-                        <p class="l">Notre domaine vital</p></u>
-                    </div>
-                </div>
-              </div>
-              
-
-              <div class="col-lg-2 col-md-4 d-none d-md-block sa">
-                <div class="row">
-                    
-                    <img src="kaka.jpeg" alt="" class="dodo">
-
-                </div>
-                <div class="row">
-                  <div class="col-10"><br>
-                     <u> <h5 class="no2">L'informatique</h5>
-                      <p class="l">Notre domaine vital</p></u>
-                  </div>
-              </div>
-              </div>
-              <div class="col-lg-2 col-md-4 d-none d-lg-block se">
-                <div class="row">
-                    
-                    <img src="tota.jpeg" alt="" class="dodo">
-
-                </div>
-                <div class="row">
-                  <div class="col-10 "><br>
-                     <u> <h5 class="no2">L'agriculture</h5>
-                      <p class="l">Notre domaine vital</p></u>
-                  </div>
-              </div>
-              </div>
-              <div class="col-lg-2 col-md-4 d-none d-lg-block su">
-                <div class="row">
-                    
-                    <img src="popo.jpeg" alt="" class="dodo">
-
-                </div>
-                <div class="row">
-                  <div class="col-10 messi"><br>
-                     <u><h5 class="no2">L'energie</h5>
-                      <p class="l"> Notre domaine vital</p></u>
-                  </div>
-              </div>
-              </div>
-
-
-
-
-
-
-          </div>
-        </div>   
-    </div>
-</div>
-    <div id="overlay" class="overlay">
-
-        <div class="modal " >
-           <div class="modal-dialog">
-                    <div class="modal-content" id="shadowbox">
-                     <div class="modal-header">
-                        <div class="row">
-                           <div class="row">
-                              <div class="col-12"> <b class="ne">NEWSLETTERS</b></div>
-                           </div>
-                           <div class="row">
-                              <div class="col-12 na  "> Abonnez-vous à notre site pour être toujours au courant de nos actualités, 
-                                des offres et des mises à jour sur notre site.</div>
-                           </div>
+                     <div class="col-12 debut">
+                         <p class="test"> 
+                             <h1>Welcome to my Paradise</h1>
+                        </p>
                         </div>
-                      
-                      </div>
-                     <div class="modal-body">
-                           <form action="">
-                              <label for="">E-mail</label>
-                              <input class="nam" type="text" placeholder="Entrer votre e-mail">
-                             
-                              <br><br>
-                              
-                              <input class="sub" type="submit" value="S'abonner">
-                           </form>
-                           </div>
-                     <div class="modal-footer">
-                       <button id="btnclose" type="button" class="btn btn-secondary ">Non,Merci!
-                       </button>
-                           </div>
-                    </div>
-           </div>
+                     </div>
+                     
+                 </div>
+            
+        <div class="container">
+        <div class="row pres" id="Description" data-aos="fade-up">
+            <div class="col-md-6 col-lg-4">
+                <div class="pic"> 
+                    <img src="./assets/img/IMG-20211007-WA0072.jpg" alt="">
+                </div>
+                
+            </div>
+            <div class="col-md-6 col-lg-8 presentation">
+                <h4 class="nom">ADEDODJA Elimson</h4>
+                <p>Etudiant en troisieme année de licence. Passion par la musique, le développement web,
+                    mobile et desktop. Concepteur de la plateforme ong-ewanou.com.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, soluta, 
+                    corporis a tempora voluptate, quia veritatis quasi dolore praesentium quas cum facilis architecto 
+                    hic temporibus rerum culpa fugit doloribus nostrum.
+                </p>
+            </div>
         </div>
-     </div>
+        <div class="row moi">
+            <div class="col-md-5 passion" id="Passion" data-aos="fade-up">
+                <h4 class="nom"> Mes Passions</h4>
+                <p>Tres actif dans la vie, j'suis tres passioné par:
+                    <ul>
+                        <li>Les nouvelles technologies</li>
+                        <li>la Programmation</li>
+                        <li>La musique</li>
+                        <li>Le foot</li>
+                    </ul>
+                    Je fais partir de ceux qui pensent que chacun devrait se créer son propre paradis.
+                </p>
+            </div>
+            <div class="col-md-5 maison" id="Maison" data-aos="fade-up">
+                <h4 class="nom"> Ma vie a la maison</h4>
+                <p>A la maison je passe plus mon temps:
+                    <ul>
+                        <li>Devant la télé</li>
+                        <li>Je fais mes travaux domestique</li>
+                        <li>J'aime passer du temps avec mes neveux et niece</li>
+                    </ul>
+                Je pense qu'a la maison nous devons nous détacher de tout le stress de la vie courante, 
+                et passer des moments de qualité avec ceux qui nous aiment et que nous aimons.
+                </p>
+            </div>
+        </div>
+        <div class="row moi">
+            <div class="col-md-5 ecole" id="Ecole" data-aos="fade-up">
+                <h4 class="nom"> Ma Vie à l'école </h4>
+                <p>
+                    A l'école je suis un étudiant tres stidueux, assidu, respectueux. 
+                    Je suis notament apprécié de mes professeurs et de mes camarades de salle.
+                    Je fréquente l'institut les Cours Sonou, une institut prestigieuse du Bénin, avec de bon enseignant
+                    et surtout des salles de cours tres conviviale.
+                </p>
+            </div>
+            <div class="col-md-5 religion" id="Religion" data-aos="fade-up">
+                <h4 class="nom"> Ma vie réligieuse</h4>
+                <p>
+                    Je suis un chrétien qui essaie de s'en sortir. Je suis à la lutte contre le péché.
+                    Mais comme j'aime le dire à chaque jour suffit sa peine
+                </p>
+            </div>
+        </div>
+    </div>
 
-    <div id="footer">    
+    <div class="foot">
         <footer>
             <div class="row">
+                <div class="col-md-2 essai">
+                    <h4 class="nom">@Elimson ADEDODJA</h4> <br>
+                    <h6>Développeur web et mobile</h6>
+                </div>
+                <div class="col-md-2 essai">
+                    <h4 class="nom"> Passion </h4>
+                    <ul>
+                        <li>Programmation</li>
+                        <li>Musique</li>
+                        <li>Tech</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 essai d-none d-md-block">
+                    <h4 class="nom"> Maison </h4>
+                    <ul>
+                        <li>Passer du temps en famille</li>
+                        <li>Télévision</li>
+                        <li>Travail</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 essai">
+                    <div class="social-links mt-0">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3 " style="color: white;">
+                © 2021 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/"></a>
+              </div>
+            
+            
+        </footer>
+    </div>
+    </div>
 
-                <div class="col-lg-4 col-md-12 mes">
-                            &nbsp;&nbsp; <br>
-                            <h2 class="orien">Oriente-toi</h2>
-                                <p class="d-none d-md-block pied1">Oriente-toi est un jeune projet né à la <br> suite d'une formation en informatique au Bénin
-                                <br> les realisateurs du projet developpent des solutions <br> pour permettre aux nouveaux bachéliers <br> et aux parents 
-                                d'élèves de trouver les  meilleurs <br> universites qui repondent a leur attentes.
-                            </p> 
-                </div>
-                <div class="col-lg-4 col-md-5 ac">
-                        <div class="row"> 
-                           <div class="col-6 "><a href="index.html"><u> Accueil</u> </a></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-6"><a href="#offres"> <u>offres</u>  </a><br><a href=""><u>Newsletter</u> </a> <br> <a href=""><u>Actualités</u></a> </div>
-                            <div class="col-5 cnt">Contacts 
-                                <br> +229<em> 00.00.00.00</em></div>
-                        </div>
-                        
-                </div>
-                <div class="col-3 mes1">
-                    <div class="row d-none d-md-block">
-                        <div class="col-lg-12 siz">
-                            Envoyer-nous un message si vous avez une question en tête ou 
-                            un petit message sympa à nous transmettre
-                            <div class="row">
-                                <button id="btnpopup" type="button" class="btn btn-primary btnpopup" data-toggle="modal" data-target="#popup">
-                                    soucrir au NEWSLETTERS
-                               </button>
-                            </div> 
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row mes2">
-                    <!--<div class="col-2 un"> &nbsp;<img src="tp2.png" alt="" height="24" width="34"> :
-                        <h3 class="calavi"> <em>calavi</em></h3></div>-->
-                    &nbsp;&nbsp;<div class="col-0.8 un"><img src="facebookb.png" alt="" height="24" width="34"></div>
-                    &nbsp;&nbsp;<div class="col-0.8 un"><img src="whatb.png" alt="" height="24" width="34"></div>
-                    &nbsp;&nbsp; <div class="col-0.8 un"><img src="messenb.png" alt="" height="24" width="34"></div>
-                    &nbsp;&nbsp;<div class="col-0.8 un"><img src="igb.png" alt="" height="26" width="36">&nbsp;&nbsp;<h5 class="in"> in </h5></div>
-                     
-                    </div>
-                    <div class="deux">
-                        <center>
-                            <h5 class="c"> C </h5> &nbsp;&nbsp;&nbsp;-2021 copyrigth droit reservé 
-                        </center>
-                    </div>
-                </footer>
-            </div>
-    
-       
-    
-    <script src="bootstrap-4.3.1-dist/js/jquery-3.6.0.js"></script>
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
-    <script src="script.js"></script>
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+      
 </body>
 </html>
